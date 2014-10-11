@@ -64,3 +64,10 @@ set encoding=utf-8 " Necessary to show Unicode glyphs
 let g:vim_markdown_folding_disabled=1
 au BufRead,BufNewFile *.md set filetype=markdown
 
+
+"Show hidden files in NerdTree
+"let NERDTreeShowHidden=1
+"
+""autopen NERDTree and focus cursor in new document
+autocmd VimEnter * NERDTree
+autocmd VimEnter * wincmd p
