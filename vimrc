@@ -64,8 +64,12 @@ set encoding=utf-8 " Necessary to show Unicode glyphs
 let g:vim_markdown_folding_disabled=1
 au BufRead,BufNewFile *.md set filetype=markdown
 
-
+let g:pymode_rope = 0 
+let g:pymode_rope_autoimport = 0
+let g:pymode_rope_lookup_project = 0
+let g:pymode_rope_complete_on_dot = 0
 "Show hidden files in NerdTree
+
 "let NERDTreeShowHidden=1
 "
 ""autopen NERDTree and focus cursor in new document
