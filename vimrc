@@ -24,8 +24,8 @@ filetype plugin indent on
 
 colorscheme vividchalk
 
-set paste
-set nopaste
+" set paste
+" set nopaste
 set wrap        				" don't wrap lines
 set linebreak
 set nolist
@@ -75,3 +75,18 @@ let g:pymode_rope_complete_on_dot = 0
 ""autopen NERDTree and focus cursor in new document
 autocmd VimEnter * NERDTree
 autocmd VimEnter * wincmd p
+
+" vim-javascript
+" JavaScript bundle for vim, this bundle provides syntax highlighting and
+" improved indentation.
+"
+"https://github.com/pangloss/vim-javascript
+
+let g:javascript_plugin_flow = 1 	" Enables syntax highlighting for Flow.
+set foldmethod=syntax 				" Enables code folding based on our syntax file.
+"let g:javascript_plugin_jsdoc = 1	" Enables syntax highlighting for JSDocs.
+"let g:javascript_plugin_ngdoc = 1	" Enables some additional syntax highlighting for NGDocs. Requires JSDoc plugin to be enabled as well.
+
+"set conceallevel=1					" You can enable concealing within VIM
+
+
