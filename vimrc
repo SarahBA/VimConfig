@@ -83,10 +83,17 @@ autocmd VimEnter * wincmd p
 "https://github.com/pangloss/vim-javascript
 
 let g:javascript_plugin_flow = 1 	" Enables syntax highlighting for Flow.
-set foldmethod=syntax 				" Enables code folding based on our syntax file.
+"set foldmethod=syntax 				" Enables code folding based on our syntax file.
 "let g:javascript_plugin_jsdoc = 1	" Enables syntax highlighting for JSDocs.
 "let g:javascript_plugin_ngdoc = 1	" Enables some additional syntax highlighting for NGDocs. Requires JSDoc plugin to be enabled as well.
 
 "set conceallevel=1					" You can enable concealing within VIM
 
+" Tern_for_vim
+" https://github.com/ternjs/tern_for_vim
+" let g:tern#command=['/usr/local/bin/node', '/Users/ben/Code/projects/tern-es6/bin/tern']
+" tern#is_show_argument_hints_enabled
 
+
+" vim-jsx
+" let g:jsx_ext_required = 0 		" By default, JSX syntax highlighting and indenting will be enabled only for files with the .jsx extension. If you would like JSX in .js files, let g:jsx_ext_required = 0
