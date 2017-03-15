@@ -97,3 +97,19 @@ let g:javascript_plugin_flow = 1 	" Enables syntax highlighting for Flow.
 
 " vim-jsx
 " let g:jsx_ext_required = 0 		" By default, JSX syntax highlighting and indenting will be enabled only for files with the .jsx extension. If you would like JSX in .js files, let g:jsx_ext_required = 0
+
+
+" ---------------------  UltiSnips
+" Track the engine.
+"Plugin 'bundle/ultisnips'
+
+" Snippets are separated from the engine. Add this if you want them:
+" Plugin 'bundle/vim-snippets'
+
+" Trigger configuration. Do not use <tab> if you use https://github.com/Valloric/YouCompleteMe.
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsJumpForwardTrigger="<c-b>" " it's actually Ctrl+b
+let g:UltiSnipsJumpBackwardTrigger="<c-z>" " it's actually Ctrl+z
+
+" If you want :UltiSnipsEdit to split your window.
+let g:UltiSnipsEditSplit="vertical"
